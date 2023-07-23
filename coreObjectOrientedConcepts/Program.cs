@@ -85,5 +85,35 @@ employee.DisplayDetails();
 
 // ****************************************** //
 
+// User.cs - Properties
+/*
+User user = new User();
+user.Name = "Jes Aldrin Rabanal";
+user.Age = 22;
+//user.CompanyName = "ABC";
+Console.WriteLine(user.Name);
+Console.WriteLine(user.CompanyName);
+Console.WriteLine(user.Age);
+*/
 
+// ****************************************** //
 
+/*
+// StringIndexerType.cs - Indexers
+
+StringIndexerType stringIndexerType = new StringIndexerType();
+stringIndexerType[0] = "String One";
+stringIndexerType[1] = "String Two";
+stringIndexerType[2] = "String Three";
+stringIndexerType[3] = "String Four";
+
+for(int i = 0; i < 10; i++)
+    Console.WriteLine(stringIndexerType[i]);
+*/
+
+// ****************************************** //
+
+// EnumDemo.cs - Enum
+
+EnumDemo enumDemo = new EnumDemo();
+enumDemo.display();
